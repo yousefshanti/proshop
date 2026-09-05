@@ -1,11 +1,14 @@
 import { useState } from 'react'
 import { useParams } from 'react-router-dom'
 import Breadcrumb from '../components/Breadcrumb'
+import NotFound from '../components/NotFound'
 import QuantityStepper from '../components/QuantityStepper'
 import ReviewCard from '../components/ReviewCard'
 import ProductGrid from '../components/ProductGrid'
-import { useAppDispatch } from '../store/hooks'
+import { useAppDispatch, useAppSelector } from '../store/hooks'
 import { addToCart } from '../store/cartSlice'
+import { toggleWishlist } from '../store/wishlistSlice'
+import { WishlistIcon } from '../components/Icon'
 import products from '../data/products.json'
 import reviews from '../data/reviews.json'
 
@@ -18,9 +21,10 @@ export default function ProductPage() {
   const [selected, setSelected] = useState<Record<string, string>>({})
   const [activeImage, setActiveImage] = useState(0)
   const dispatch = useAppDispatch()
+  const isWishlisted = useAppSelector((state) => state.wishlist.items.some((i) => i.id === product?.id))
 
   if (!product) {
-    return <div className="p-10">Product not found.</div>
+    return <NotFound message="Product not found." />
   }
 
   const gallery = product.gallery ?? [product.image]
@@ -36,12 +40,12 @@ export default function ProductPage() {
           <div className="aspect-square bg-surface-alt rounded-card overflow-hidden">
             <img src={gallery[activeImage]} alt={product.name} className="w-full h-full object-contain" />
           </div>
-          <div className="flex gap-4 mt-4">
+          <div className="flex gap-4 mt-4 overflow-x-auto">
             {gallery.map((src, i) => (
               <button
                 key={src}
                 onClick={() => setActiveImage(i)}
-                className={`w-[142px] aspect-square bg-surface-alt rounded-card overflow-hidden border-2 ${
+                className={`w-[84px] sm:w-[110px] md:w-[142px] shrink-0 aspect-square bg-surface-alt rounded-card overflow-hidden border-2 ${
                   activeImage === i ? 'border-brand' : 'border-transparent'
                 }`}
               >
@@ -52,9 +56,9 @@ export default function ProductPage() {
         </div>
 
         <div>
-          <div className="flex justify-between items-start gap-4">
-            <h1 className="font-sans font-bold text-[32px] text-ink">{product.name}</h1>
-            <p className="font-sans font-bold text-[32px] text-ink shrink-0">${product.price}</p>
+          <div className="flex flex-wrap justify-between items-start gap-4">
+            <h1 className="font-sans font-bold text-[22px] sm:text-[26px] md:text-[32px] text-ink">{product.name}</h1>
+            <p className="font-sans font-bold text-[22px] sm:text-[26px] md:text-[32px] text-ink shrink-0">${product.price}</p>
           </div>
 
           <div className="mt-6">
@@ -98,10 +102,13 @@ export default function ProductPage() {
 
           <div className="flex gap-4 mt-8">
             <button
-              aria-label="Save for later"
-              className="w-[62px] h-[62px] shrink-0 border border-surface rounded-btn flex items-center justify-center text-[20px] text-ink"
+              onClick={() => dispatch(toggleWishlist({ id: product.id, slug: product.slug, name: product.name, price: product.price, image: product.image }))}
+              aria-label={isWishlisted ? 'Remove from wishlist' : 'Save for later'}
+              className={`w-[62px] h-[62px] shrink-0 border rounded-btn flex items-center justify-center ${
+                isWishlisted ? 'bg-brand border-brand text-ink' : 'border-surface text-ink'
+              }`}
             >
-              ♡
+              <WishlistIcon className="w-5 h-5" />
             </button>
             <button
               onClick={() => dispatch(addToCart({ item: { id: product.id, slug: product.slug, name: product.name, price: product.price, image: product.image }, qty }))}
@@ -116,7 +123,7 @@ export default function ProductPage() {
       </div>
 
       <div className="mt-24">
-        <h2 className="font-sans font-bold text-[32px] text-ink">Specification</h2>
+        <h2 className="font-sans font-bold text-[22px] sm:text-[26px] md:text-[32px] text-ink">Specification</h2>
         <p className="font-sans font-bold text-[24px] text-ink mt-6">Technical Details</p>
         <div className="grid sm:grid-cols-2 gap-x-10 mt-4">
           {product.specs?.map((s) => (
@@ -129,7 +136,7 @@ export default function ProductPage() {
       </div>
 
       <div className="mt-24">
-        <h2 className="font-sans font-bold text-[32px] text-ink">Reviews</h2>
+        <h2 className="font-sans font-bold text-[22px] sm:text-[26px] md:text-[32px] text-ink">Reviews</h2>
         <div className="mt-6">
           {productReviews.length === 0 && (
             <p className="font-sans text-[16px] text-muted">No reviews yet.</p>
@@ -141,7 +148,7 @@ export default function ProductPage() {
       </div>
 
       <div className="mt-24">
-        <h2 className="font-sans font-bold text-[32px] text-ink text-center">Featured Products</h2>
+        <h2 className="font-sans font-bold text-[22px] sm:text-[26px] md:text-[32px] text-ink text-center">Featured Products</h2>
         <div className="mt-8">
           <ProductGrid products={related} />
         </div>

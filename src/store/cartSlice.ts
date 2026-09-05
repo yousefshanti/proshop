@@ -1,17 +1,5 @@
 import { createSlice, type PayloadAction } from '@reduxjs/toolkit'
-
-export type CartLine = {
-  id: string
-  slug: string
-  name: string
-  price: number
-  image: string
-  qty: number
-}
-
-type CartState = {
-  lines: CartLine[]
-}
+import type { CartLine, CartState } from '../types'
 
 const initialState: CartState = {
   lines: [],

@@ -1,19 +1,9 @@
 import ProductCard from './ProductCard'
+import type { ProductGridProps } from '../types'
 
-type Product = {
-  id: string
-  slug: string
-  name: string
-  price: number
-  oldPrice?: number
-  discountPct?: number
-  rating: number
-  image: string
-}
-
-export default function ProductGrid({ products }: { products: Product[] }) {
+export default function ProductGrid({ products }: ProductGridProps) {
   return (
-    <div className="grid gap-10 justify-center" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 520px))' }}>
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 justify-items-center">
       {products.map((p) => (
         <ProductCard key={p.id} {...p} />
       ))}

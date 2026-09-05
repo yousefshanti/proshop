@@ -15,8 +15,8 @@ export default function HomePage() {
       <HeroCarousel slides={heroSlides} />
 
       <div className="max-w-[1640px] mx-auto mt-16 px-6">
-        <h2 className="font-sans font-bold text-[32px] text-ink">Featured Categories</h2>
-        <div className="grid gap-10 mt-8" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 380px))' }}>
+        <h2 className="font-sans font-bold text-[22px] sm:text-[26px] md:text-[32px] text-ink">Featured Categories</h2>
+        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-10 mt-8">
           {categories.map((c) => (
             <CategoryCard key={c.label} {...c} />
           ))}
@@ -24,14 +24,14 @@ export default function HomePage() {
       </div>
 
       <div className="max-w-[1640px] mx-auto mt-24 px-6">
-        <h2 className="font-sans font-bold text-[32px] text-ink text-center">Featured Products</h2>
+        <h2 className="font-sans font-bold text-[22px] sm:text-[26px] md:text-[32px] text-ink text-center">Featured Products</h2>
         <div className="mt-8">
           <ProductGrid products={featured} />
         </div>
       </div>
 
       <div className="max-w-[1640px] mx-auto mt-24 px-6">
-        <h2 className="font-sans font-bold text-[32px] text-ink">Top Rate Products</h2>
+        <h2 className="font-sans font-bold text-[22px] sm:text-[26px] md:text-[32px] text-ink">Top Rate Products</h2>
         <div className="mt-8">
           <ProductStrip products={topRated} />
         </div>

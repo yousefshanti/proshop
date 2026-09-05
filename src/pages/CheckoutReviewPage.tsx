@@ -42,7 +42,7 @@ export default function CheckoutReviewPage() {
 
   return (
     <div className="max-w-[1640px] mx-auto px-6 py-10">
-      <p className="font-sans font-bold text-[32px] text-ink">Review Order</p>
+      <p className="font-sans font-bold text-[22px] sm:text-[26px] md:text-[32px] text-ink">Review Order</p>
       <div className="mt-6">
         <StepIndicator steps={[{ n: 1, label: 'Shipping and Payment' }, { n: 2, label: 'Place an Order' }]} current={2} />
       </div>

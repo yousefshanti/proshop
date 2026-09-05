@@ -1,13 +1,6 @@
-type Product = {
-  id: string
-  slug: string
-  name: string
-  price: number
-  rating: number
-  image: string
-}
+import type { ProductStripProps } from '../types'
 
-export default function ProductStrip({ products }: { products: Product[] }) {
+export default function ProductStrip({ products }: ProductStripProps) {
   return (
     <div className="border border-brand rounded-card grid grid-cols-1 sm:grid-cols-3 divide-y sm:divide-y-0 sm:divide-x divide-surface">
       {products.map((p) => (

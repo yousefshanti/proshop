@@ -1,11 +1,6 @@
-type Props = {
-  value: number
-  min?: number
-  max: number
-  onChange: (value: number) => void
-}
+import type { QuantityStepperProps } from '../types'
 
-export default function QuantityStepper({ value, min = 1, max, onChange }: Props) {
+export default function QuantityStepper({ value, min = 1, max, onChange }: QuantityStepperProps) {
   return (
     <div className="inline-flex items-center h-10 rounded-input overflow-hidden border border-surface">
       <button

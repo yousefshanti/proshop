@@ -1,11 +1,6 @@
-type Props = {
-  author: string
-  date: string
-  rating: number
-  body: string
-}
+import type { ReviewCardProps } from '../types'
 
-export default function ReviewCard({ author, date, rating, body }: Props) {
+export default function ReviewCard({ author, date, rating, body }: ReviewCardProps) {
   return (
     <div className="py-8 border-b border-surface">
       <div className="flex items-center justify-between">

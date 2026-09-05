@@ -1,5 +1,6 @@
 import { Link, useParams } from 'react-router-dom'
 import ProductStrip from '../components/ProductStrip'
+import NotFound from '../components/NotFound'
 import { useAppSelector } from '../store/hooks'
 import products from '../data/products.json'
 
@@ -9,17 +10,12 @@ export default function OrderSuccessPage() {
   const recentlyViewed = products.slice(0, 3)
 
   if (!order || order.id !== id) {
-    return (
-      <div className="max-w-[1640px] mx-auto px-6 py-10 text-center">
-        <p className="font-sans font-bold text-[32px] text-ink">Order not found</p>
-        <Link to="/" className="inline-block mt-8 font-sans text-[22px] text-brand">Back to Home</Link>
-      </div>
-    )
+    return <NotFound message="Order not found." />
   }
 
   return (
     <div className="max-w-[1640px] mx-auto px-6 py-10">
-      <p className="font-sans font-bold text-[32px] text-ink">Payment Success !</p>
+      <p className="font-sans font-bold text-[22px] sm:text-[26px] md:text-[32px] text-ink">Payment Success !</p>
 
       <div className="grid sm:grid-cols-2 gap-x-10 gap-y-6 mt-10 max-w-[1400px]">
         <div>
@@ -56,7 +52,7 @@ export default function OrderSuccessPage() {
       </Link>
 
       <div className="mt-24">
-        <h2 className="font-sans font-bold text-[32px] text-ink">Recently viewed</h2>
+        <h2 className="font-sans font-bold text-[22px] sm:text-[26px] md:text-[32px] text-ink">Recently viewed</h2>
         <div className="mt-8">
           <ProductStrip products={recentlyViewed} />
         </div>

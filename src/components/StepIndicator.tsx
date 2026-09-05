@@ -1,15 +1,12 @@
-type Props = {
-  steps: { n: number; label: string }[]
-  current: number
-}
+import type { StepIndicatorProps } from '../types'
 
-export default function StepIndicator({ steps, current }: Props) {
+export default function StepIndicator({ steps, current }: StepIndicatorProps) {
   return (
-    <div className="flex gap-10">
+    <div className="flex flex-wrap gap-4 sm:gap-10">
       {steps.map((s) => (
         <p
           key={s.n}
-          className={`font-sans font-bold text-[22px] ${s.n === current ? 'text-ink' : 'text-muted'}`}
+          className={`font-sans font-bold text-[16px] sm:text-[22px] ${s.n === current ? 'text-ink' : 'text-muted'}`}
         >
           {s.n} {s.label}
         </p>

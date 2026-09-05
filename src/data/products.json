@@ -104,5 +104,217 @@
       { "label": "Power", "value": "15W adapter" },
       { "label": "Color", "value": "Charcoal" }
     ]
+  },
+  {
+    "id": "iphone", "slug": "iphone", "name": "Apple iPhone 11 Pro 256GB Memory", "brand": "Apple", "category": "devices",
+    "price": 499.99, "rating": 4.5, "reviewCount": 12, "countInStock": 8,
+    "image": "/assets/product-iphone.webp",
+    "gallery": ["/assets/product-iphone.webp", "/assets/product-iphone-2.webp", "/assets/product-iphone-3.webp"],
+    "description": "Pro cameras. Pro display. Pro performance.",
+    "options": [
+      { "label": "Color", "values": ["Silver", "Space Gray", "Gold"] },
+      { "label": "Size", "values": ["64GB", "256GB", "512GB"] }
+    ],
+    "specs": [
+      { "label": "Brand", "value": "Apple" },
+      { "label": "Model", "value": "iPhone 11 Pro" },
+      { "label": "Storage", "value": "256GB" },
+      { "label": "Display", "value": "5.8-inch Super Retina XDR" },
+      { "label": "Camera", "value": "Triple 12MP" },
+      { "label": "Battery", "value": "3046 mAh" },
+      { "label": "OS", "value": "iOS 13" },
+      { "label": "Weight", "value": "188g" }
+    ]
+  },
+  {
+    "id": "airpods", "slug": "airpods", "name": "Apple Airpods Wireless Bluetooth Headset", "brand": "Apple", "category": "accessories",
+    "price": 89.99, "oldPrice": 99.99, "discountPct": 30, "rating": 4, "reviewCount": 8, "countInStock": 15,
+    "image": "/assets/product-airpods.webp",
+    "gallery": ["/assets/product-airpods.webp", "/assets/product-airpods-2.webp", "/assets/product-airpods-3.webp"],
+    "description": "AirPods are the best-selling headphones in the world.",
+    "specs": [
+      { "label": "Brand", "value": "Apple" },
+      { "label": "Model", "value": "AirPods 2nd Gen" },
+      { "label": "Connectivity", "value": "Bluetooth 5.0" },
+      { "label": "Battery Life", "value": "5 hours" },
+      { "label": "Charging Case", "value": "Included" },
+      { "label": "Weight", "value": "4g each" },
+      { "label": "Microphone", "value": "Dual beamforming" },
+      { "label": "Water Resistance", "value": "None" }
+    ]
+  },
+  {
+    "id": "ps4", "slug": "ps4", "name": "Sony Playstation 4 Pro White Version", "brand": "Sony", "category": "devices",
+    "price": 399.99, "rating": 1, "reviewCount": 3, "countInStock": 5,
+    "image": "/assets/product-ps4.webp",
+    "gallery": ["/assets/product-ps4.webp", "/assets/product-ps4-2.webp", "/assets/product-ps4-3.webp"],
+    "description": "Lightning-fast download speed with super-fast SSD.",
+    "specs": [
+      { "label": "Brand", "value": "Sony" },
+      { "label": "Model", "value": "PS4 Pro" },
+      { "label": "Storage", "value": "1TB" },
+      { "label": "Resolution", "value": "4K HDR" },
+      { "label": "CPU", "value": "8-core AMD Jaguar" },
+      { "label": "GPU", "value": "AMD Radeon" },
+      { "label": "Connectivity", "value": "Wi-Fi, Bluetooth" },
+      { "label": "Weight", "value": "3.3kg" }
+    ]
+  },
+  {
+    "id": "mouse", "slug": "mouse", "name": "Logitech G-Series Gaming Mouse", "brand": "Logitech", "category": "components",
+    "price": 49.99, "rating": 5, "reviewCount": 10, "countInStock": 22,
+    "image": "/assets/product-mouse.webp",
+    "gallery": ["/assets/product-mouse.webp", "/assets/product-mouse-2.webp", "/assets/product-mouse-3.webp"],
+    "description": "Precision wireless mouse with long battery life.",
+    "specs": [
+      { "label": "Brand", "value": "Logitech" },
+      { "label": "Model", "value": "G502" },
+      { "label": "Connectivity", "value": "Wired USB" },
+      { "label": "DPI", "value": "16000" },
+      { "label": "Buttons", "value": "11 programmable" },
+      { "label": "Weight", "value": "121g" },
+      { "label": "RGB", "value": "Yes" },
+      { "label": "Warranty", "value": "2 years" }
+    ]
+  },
+  {
+    "id": "cam", "slug": "cam", "name": "Canon Eos 80D DSLR Camera", "brand": "Canon", "category": "devices",
+    "price": 799.99, "rating": 4.5, "reviewCount": 9, "countInStock": 4,
+    "image": "/assets/product-cam.webp",
+    "gallery": ["/assets/product-cam.webp", "/assets/product-cam-2.webp", "/assets/product-cam-3.webp"],
+    "description": "Compact action camera for every adventure.",
+    "specs": [
+      { "label": "Brand", "value": "Canon" },
+      { "label": "Model", "value": "EOS 80D" },
+      { "label": "Sensor", "value": "24.2MP APS-C" },
+      { "label": "Video", "value": "1080p 60fps" },
+      { "label": "Screen", "value": "3-inch vari-angle touch" },
+      { "label": "ISO Range", "value": "100-16000" },
+      { "label": "Connectivity", "value": "Wi-Fi, NFC" },
+      { "label": "Weight", "value": "730g" }
+    ]
+  },
+  {
+    "id": "amazon", "slug": "amazon", "name": "Amazon Echo Dot 3rd Generation", "brand": "Amazon", "category": "devices",
+    "price": 29.99, "rating": 5, "reviewCount": 14, "countInStock": 30,
+    "image": "/assets/product-amazon.webp",
+    "gallery": ["/assets/product-amazon.webp", "/assets/product-amazon-2.webp", "/assets/product-amazon-3.webp"],
+    "description": "Smart speaker with Alexa built in.",
+    "specs": [
+      { "label": "Brand", "value": "Amazon" },
+      { "label": "Model", "value": "Echo Dot 3rd Gen" },
+      { "label": "Assistant", "value": "Alexa built-in" },
+      { "label": "Connectivity", "value": "Wi-Fi, Bluetooth" },
+      { "label": "Speaker", "value": "1.6-inch driver" },
+      { "label": "Diameter", "value": "99mm" },
+      { "label": "Power", "value": "15W adapter" },
+      { "label": "Color", "value": "Charcoal" }
+    ]
+  },
+  {
+    "id": "iphone", "slug": "iphone", "name": "Apple iPhone 11 Pro 256GB Memory", "brand": "Apple", "category": "devices",
+    "price": 499.99, "rating": 4.5, "reviewCount": 12, "countInStock": 8,
+    "image": "/assets/product-iphone.webp",
+    "gallery": ["/assets/product-iphone.webp", "/assets/product-iphone-2.webp", "/assets/product-iphone-3.webp"],
+    "description": "Pro cameras. Pro display. Pro performance.",
+    "options": [
+      { "label": "Color", "values": ["Silver", "Space Gray", "Gold"] },
+      { "label": "Size", "values": ["64GB", "256GB", "512GB"] }
+    ],
+    "specs": [
+      { "label": "Brand", "value": "Apple" },
+      { "label": "Model", "value": "iPhone 11 Pro" },
+      { "label": "Storage", "value": "256GB" },
+      { "label": "Display", "value": "5.8-inch Super Retina XDR" },
+      { "label": "Camera", "value": "Triple 12MP" },
+      { "label": "Battery", "value": "3046 mAh" },
+      { "label": "OS", "value": "iOS 13" },
+      { "label": "Weight", "value": "188g" }
+    ]
+  },
+  {
+    "id": "airpods", "slug": "airpods", "name": "Apple Airpods Wireless Bluetooth Headset", "brand": "Apple", "category": "accessories",
+    "price": 89.99, "oldPrice": 99.99, "discountPct": 30, "rating": 4, "reviewCount": 8, "countInStock": 15,
+    "image": "/assets/product-airpods.webp",
+    "gallery": ["/assets/product-airpods.webp", "/assets/product-airpods-2.webp", "/assets/product-airpods-3.webp"],
+    "description": "AirPods are the best-selling headphones in the world.",
+    "specs": [
+      { "label": "Brand", "value": "Apple" },
+      { "label": "Model", "value": "AirPods 2nd Gen" },
+      { "label": "Connectivity", "value": "Bluetooth 5.0" },
+      { "label": "Battery Life", "value": "5 hours" },
+      { "label": "Charging Case", "value": "Included" },
+      { "label": "Weight", "value": "4g each" },
+      { "label": "Microphone", "value": "Dual beamforming" },
+      { "label": "Water Resistance", "value": "None" }
+    ]
+  },
+  {
+    "id": "ps4", "slug": "ps4", "name": "Sony Playstation 4 Pro White Version", "brand": "Sony", "category": "devices",
+    "price": 399.99, "rating": 1, "reviewCount": 3, "countInStock": 5,
+    "image": "/assets/product-ps4.webp",
+    "gallery": ["/assets/product-ps4.webp", "/assets/product-ps4-2.webp", "/assets/product-ps4-3.webp"],
+    "description": "Lightning-fast download speed with super-fast SSD.",
+    "specs": [
+      { "label": "Brand", "value": "Sony" },
+      { "label": "Model", "value": "PS4 Pro" },
+      { "label": "Storage", "value": "1TB" },
+      { "label": "Resolution", "value": "4K HDR" },
+      { "label": "CPU", "value": "8-core AMD Jaguar" },
+      { "label": "GPU", "value": "AMD Radeon" },
+      { "label": "Connectivity", "value": "Wi-Fi, Bluetooth" },
+      { "label": "Weight", "value": "3.3kg" }
+    ]
+  },
+  {
+    "id": "mouse", "slug": "mouse", "name": "Logitech G-Series Gaming Mouse", "brand": "Logitech", "category": "components",
+    "price": 49.99, "rating": 5, "reviewCount": 10, "countInStock": 22,
+    "image": "/assets/product-mouse.webp",
+    "gallery": ["/assets/product-mouse.webp", "/assets/product-mouse-2.webp", "/assets/product-mouse-3.webp"],
+    "description": "Precision wireless mouse with long battery life.",
+    "specs": [
+      { "label": "Brand", "value": "Logitech" },
+      { "label": "Model", "value": "G502" },
+      { "label": "Connectivity", "value": "Wired USB" },
+      { "label": "DPI", "value": "16000" },
+      { "label": "Buttons", "value": "11 programmable" },
+      { "label": "Weight", "value": "121g" },
+      { "label": "RGB", "value": "Yes" },
+      { "label": "Warranty", "value": "2 years" }
+    ]
+  },
+  {
+    "id": "cam", "slug": "cam", "name": "Canon Eos 80D DSLR Camera", "brand": "Canon", "category": "devices",
+    "price": 799.99, "rating": 4.5, "reviewCount": 9, "countInStock": 4,
+    "image": "/assets/product-cam.webp",
+    "gallery": ["/assets/product-cam.webp", "/assets/product-cam-2.webp", "/assets/product-cam-3.webp"],
+    "description": "Compact action camera for every adventure.",
+    "specs": [
+      { "label": "Brand", "value": "Canon" },
+      { "label": "Model", "value": "EOS 80D" },
+      { "label": "Sensor", "value": "24.2MP APS-C" },
+      { "label": "Video", "value": "1080p 60fps" },
+      { "label": "Screen", "value": "3-inch vari-angle touch" },
+      { "label": "ISO Range", "value": "100-16000" },
+      { "label": "Connectivity", "value": "Wi-Fi, NFC" },
+      { "label": "Weight", "value": "730g" }
+    ]
+  },
+  {
+    "id": "amazon", "slug": "amazon", "name": "Amazon Echo Dot 3rd Generation", "brand": "Amazon", "category": "devices",
+    "price": 29.99, "rating": 5, "reviewCount": 14, "countInStock": 30,
+    "image": "/assets/product-amazon.webp",
+    "gallery": ["/assets/product-amazon.webp", "/assets/product-amazon-2.webp", "/assets/product-amazon-3.webp"],
+    "description": "Smart speaker with Alexa built in.",
+    "specs": [
+      { "label": "Brand", "value": "Amazon" },
+      { "label": "Model", "value": "Echo Dot 3rd Gen" },
+      { "label": "Assistant", "value": "Alexa built-in" },
+      { "label": "Connectivity", "value": "Wi-Fi, Bluetooth" },
+      { "label": "Speaker", "value": "1.6-inch driver" },
+      { "label": "Diameter", "value": "99mm" },
+      { "label": "Power", "value": "15W adapter" },
+      { "label": "Color", "value": "Charcoal" }
+    ]
   }
 ]

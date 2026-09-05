@@ -1,16 +1,9 @@
-type Props = {
-  subtotal: number
-  tax: number
-  shipping: number
-  total: number
-  ctaLabel: string
-  onCta: () => void
-}
+import type { OrderSummaryCardProps } from '../types'
 
-export default function OrderSummaryCard({ subtotal, tax, shipping, total, ctaLabel, onCta }: Props) {
+export default function OrderSummaryCard({ subtotal, tax, shipping, total, ctaLabel, onCta }: OrderSummaryCardProps) {
   return (
     <div className="bg-surface rounded-card p-8">
-      <p className="font-sans font-bold text-[32px] text-ink">Order Details</p>
+      <p className="font-sans font-bold text-[22px] sm:text-[26px] md:text-[32px] text-ink">Order Details</p>
       <div className="flex justify-between mt-6 font-sans text-[16px] text-ink">
         <span>Subtotal</span>
         <span>${subtotal.toFixed(2)}</span>

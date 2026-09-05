@@ -1,24 +1,5 @@
 import { createSlice, type PayloadAction } from '@reduxjs/toolkit'
-
-export type ShippingAddress = {
-  country: string
-  city: string
-  zip: string
-  street: string
-}
-
-export type PaymentDetails = {
-  nameOnCard: string
-  cardNumber: string
-  expMonth: string
-  expYear: string
-  cvc: string
-}
-
-type CheckoutState = {
-  shipping: ShippingAddress
-  payment: PaymentDetails
-}
+import type { ShippingAddress, PaymentDetails, CheckoutState } from '../types'
 
 const initialState: CheckoutState = {
   shipping: { country: '', city: '', zip: '', street: '' },

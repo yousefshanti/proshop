@@ -1,12 +1,6 @@
-type Props = {
-  label: string
-  value: string
-  onChange: (value: string) => void
-  type?: string
-  placeholder?: string
-}
+import type { FieldProps } from '../types'
 
-export default function Field({ label, value, onChange, type = 'text', placeholder }: Props) {
+export default function Field({ label, value, onChange, type = 'text', placeholder }: FieldProps) {
   return (
     <label className="block">
       <span className="font-sans text-[16px] text-muted">{label}</span>
