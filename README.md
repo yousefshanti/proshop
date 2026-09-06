@@ -1,1 +1,12 @@
-<img width="1426" height="820" alt="Screenshot 2026-09-04 at 3 24 53 PM" src="https://github.com/user-attachments/assets/b8129ebd-7043-491b-9360-897cd7b8a1d5" />
+<img width="1011" height="819" alt="Screenshot 2026-09-06 at 7 07 47 AM" src="https://github.com/user-attachments/assets/8fce7595-e561-47a1-acd4-731dc23fbf4d" />
+<img width="1012" height="820" alt="Screenshot 2026-09-06 at 7 07 35 AM" src="https://github.com/user-attachments/assets/45a5711b-9322-422f-988b-e6c2cc66d332" />
+<img width="1426" height="819" alt="Screenshot 2026-09-06 at 7 06 40 AM" src="https://github.com/user-attachments/assets/9eb868a2-e0d0-4d59-8767-cd454c6a08a9" />
+<img width="1015" height="821" alt="Screenshot 2026-09-06 at 7 07 18 AM" src="https://github.com/user-attachments/assets/c28eee6f-538a-4baf-8696-0b6b2ee80802" />
+<img width="1439" height="819" alt="Screenshot 2026-09-06 at 7 06 26 AM" src="https://github.com/user-attachments/assets/e6018de5-4cba-4bfe-8da5-3d079e64c669" />
+<img width="1440" height="820" alt="Screenshot 2026-09-06 at 7 06 19 AM" src="https://github.com/user-attachments/assets/a97b7295-f1f5-4cb7-99fa-be2acb9f8ec6" />
+<img width="1440" height="820" alt="Screenshot 2026-09-06 at 7 06 03 AM" src="https://github.com/user-attachments/assets/0c5c1cee-5833-4b14-bb58-57f8be6fa4a8" />
+<img width="1440" height="819" alt="Screenshot 2026-09-06 at 7 06 10 AM" src="https://github.com/user-attachments/assets/83826f4b-fcbd-48ba-b79d-e13e315261ed" />
+<img width="1425" height="817" alt="Screenshot 2026-09-06 at 7 05 54 AM" src="https://github.com/user-attachments/assets/8ff2801c-55fd-43c9-8698-befd6b0a4d3b" />
+<img width="1440" height="818" alt="Screenshot 2026-09-06 at 7 05 42 AM" src="https://github.com/user-attachments/assets/b2fdc250-9f10-4f9e-9f04-fc8154f89563" />
+<img width="1440" height="818" alt="Screenshot 2026-09-06 at 7 05 31 AM" src="https://github.com/user-attachments/assets/3d8427e0-dad3-4ef4-b40b-aa9974759360" />
+<img width="1428" height="823" alt="Screenshot 2026-09-06 at 7 05 18 AM" src="https://github.com/user-attachments/assets/664c8938-2b6e-4910-8cc0-e737247feacf" />
