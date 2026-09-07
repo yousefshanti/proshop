@@ -195,3 +195,9 @@ export type DataTableProps<T> = {
   rows: T[]
   rowKey: (row: T) => string
 }
+
+export type PaginationProps = {
+  page: number
+  totalPages: number
+  onChange: (page: number) => void
+}

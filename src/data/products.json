@@ -104,5 +104,217 @@
       { "label": "Power", "value": "15W adapter" },
       { "label": "Color", "value": "Charcoal" }
     ]
+  },
+  {
+    "id": "iphone-se", "slug": "iphone-se", "name": "Apple iPhone SE 128GB Memory", "brand": "Apple", "category": "devices",
+    "price": 379.99, "rating": 4, "reviewCount": 6, "countInStock": 11,
+    "image": "/assets/product-iphone.webp",
+    "gallery": ["/assets/product-iphone.webp", "/assets/product-iphone-2.webp", "/assets/product-iphone-3.webp"],
+    "description": "Powerful chip. Compact design. Great value.",
+    "options": [
+      { "label": "Color", "values": ["Black", "White", "Red"] },
+      { "label": "Size", "values": ["64GB", "128GB", "256GB"] }
+    ],
+    "specs": [
+      { "label": "Brand", "value": "Apple" },
+      { "label": "Model", "value": "iPhone SE" },
+      { "label": "Storage", "value": "128GB" },
+      { "label": "Display", "value": "4.7-inch Retina HD" },
+      { "label": "Camera", "value": "Single 12MP" },
+      { "label": "Battery", "value": "1821 mAh" },
+      { "label": "OS", "value": "iOS 13" },
+      { "label": "Weight", "value": "148g" }
+    ]
+  },
+  {
+    "id": "airpods-pro", "slug": "airpods-pro", "name": "Apple AirPods Pro Wireless Headset", "brand": "Apple", "category": "accessories",
+    "price": 149.99, "rating": 4.5, "reviewCount": 20, "countInStock": 9,
+    "image": "/assets/product-airpods.webp",
+    "gallery": ["/assets/product-airpods.webp", "/assets/product-airpods-2.webp", "/assets/product-airpods-3.webp"],
+    "description": "Active noise cancellation for immersive sound.",
+    "specs": [
+      { "label": "Brand", "value": "Apple" },
+      { "label": "Model", "value": "AirPods Pro" },
+      { "label": "Connectivity", "value": "Bluetooth 5.0" },
+      { "label": "Battery Life", "value": "4.5 hours" },
+      { "label": "Charging Case", "value": "Wireless" },
+      { "label": "Weight", "value": "5.4g each" },
+      { "label": "Microphone", "value": "Dual beamforming" },
+      { "label": "Water Resistance", "value": "IPX4" }
+    ]
+  },
+  {
+    "id": "ps4-slim", "slug": "ps4-slim", "name": "Sony Playstation 4 Slim 1TB", "brand": "Sony", "category": "devices",
+    "price": 299.99, "rating": 3.5, "reviewCount": 7, "countInStock": 13,
+    "image": "/assets/product-ps4.webp",
+    "gallery": ["/assets/product-ps4.webp", "/assets/product-ps4-2.webp", "/assets/product-ps4-3.webp"],
+    "description": "Slimmer design, same powerful gaming performance.",
+    "specs": [
+      { "label": "Brand", "value": "Sony" },
+      { "label": "Model", "value": "PS4 Slim" },
+      { "label": "Storage", "value": "1TB" },
+      { "label": "Resolution", "value": "1080p" },
+      { "label": "CPU", "value": "8-core AMD Jaguar" },
+      { "label": "GPU", "value": "AMD Radeon" },
+      { "label": "Connectivity", "value": "Wi-Fi, Bluetooth" },
+      { "label": "Weight", "value": "2.1kg" }
+    ]
+  },
+  {
+    "id": "mouse-wireless", "slug": "mouse-wireless", "name": "Logitech MX Wireless Mouse", "brand": "Logitech", "category": "components",
+    "price": 59.99, "rating": 4.5, "reviewCount": 16, "countInStock": 18,
+    "image": "/assets/product-mouse.webp",
+    "gallery": ["/assets/product-mouse.webp", "/assets/product-mouse-2.webp", "/assets/product-mouse-3.webp"],
+    "description": "Ergonomic wireless mouse for all-day comfort.",
+    "specs": [
+      { "label": "Brand", "value": "Logitech" },
+      { "label": "Model", "value": "MX Master" },
+      { "label": "Connectivity", "value": "Bluetooth / USB receiver" },
+      { "label": "DPI", "value": "4000" },
+      { "label": "Buttons", "value": "7 programmable" },
+      { "label": "Weight", "value": "141g" },
+      { "label": "Battery Life", "value": "70 days" },
+      { "label": "Warranty", "value": "1 year" }
+    ]
+  },
+  {
+    "id": "cam-mirrorless", "slug": "cam-mirrorless", "name": "Canon EOS M50 Mirrorless Camera", "brand": "Canon", "category": "devices",
+    "price": 649.99, "rating": 4, "reviewCount": 5, "countInStock": 6,
+    "image": "/assets/product-cam.webp",
+    "gallery": ["/assets/product-cam.webp", "/assets/product-cam-2.webp", "/assets/product-cam-3.webp"],
+    "description": "Compact mirrorless camera with 4K video.",
+    "specs": [
+      { "label": "Brand", "value": "Canon" },
+      { "label": "Model", "value": "EOS M50" },
+      { "label": "Sensor", "value": "24.1MP APS-C" },
+      { "label": "Video", "value": "4K 24fps" },
+      { "label": "Screen", "value": "3-inch vari-angle touch" },
+      { "label": "ISO Range", "value": "100-25600" },
+      { "label": "Connectivity", "value": "Wi-Fi, Bluetooth, NFC" },
+      { "label": "Weight", "value": "387g" }
+    ]
+  },
+  {
+    "id": "echo-show", "slug": "echo-show", "name": "Amazon Echo Show 5", "brand": "Amazon", "category": "devices",
+    "price": 84.99, "rating": 4, "reviewCount": 11, "countInStock": 25,
+    "image": "/assets/product-amazon.webp",
+    "gallery": ["/assets/product-amazon.webp", "/assets/product-amazon-2.webp", "/assets/product-amazon-3.webp"],
+    "description": "Smart display with Alexa and a 5.5-inch screen.",
+    "specs": [
+      { "label": "Brand", "value": "Amazon" },
+      { "label": "Model", "value": "Echo Show 5" },
+      { "label": "Assistant", "value": "Alexa built-in" },
+      { "label": "Connectivity", "value": "Wi-Fi, Bluetooth" },
+      { "label": "Screen", "value": "5.5-inch display" },
+      { "label": "Camera", "value": "1MP" },
+      { "label": "Power", "value": "15W adapter" },
+      { "label": "Color", "value": "Charcoal" }
+    ]
+  },
+  {
+    "id": "iphone-13", "slug": "iphone-13", "name": "Apple iPhone 13 512GB Memory", "brand": "Apple", "category": "devices",
+    "price": 899.99, "rating": 5, "reviewCount": 18, "countInStock": 7,
+    "image": "/assets/product-iphone.webp",
+    "gallery": ["/assets/product-iphone.webp", "/assets/product-iphone-2.webp", "/assets/product-iphone-3.webp"],
+    "description": "Faster performance. Longer battery life. Amazing cameras.",
+    "options": [
+      { "label": "Color", "values": ["Midnight", "Starlight", "Blue"] },
+      { "label": "Size", "values": ["128GB", "256GB", "512GB"] }
+    ],
+    "specs": [
+      { "label": "Brand", "value": "Apple" },
+      { "label": "Model", "value": "iPhone 13" },
+      { "label": "Storage", "value": "512GB" },
+      { "label": "Display", "value": "6.1-inch Super Retina XDR" },
+      { "label": "Camera", "value": "Dual 12MP" },
+      { "label": "Battery", "value": "3227 mAh" },
+      { "label": "OS", "value": "iOS 15" },
+      { "label": "Weight", "value": "174g" }
+    ]
+  },
+  {
+    "id": "airpods-max", "slug": "airpods-max", "name": "Apple AirPods Max Over-Ear Headset", "brand": "Apple", "category": "accessories",
+    "price": 549.99, "rating": 4, "reviewCount": 9, "countInStock": 4,
+    "image": "/assets/product-airpods.webp",
+    "gallery": ["/assets/product-airpods.webp", "/assets/product-airpods-2.webp", "/assets/product-airpods-3.webp"],
+    "description": "High-fidelity over-ear sound with adaptive EQ.",
+    "specs": [
+      { "label": "Brand", "value": "Apple" },
+      { "label": "Model", "value": "AirPods Max" },
+      { "label": "Connectivity", "value": "Bluetooth 5.0" },
+      { "label": "Battery Life", "value": "20 hours" },
+      { "label": "Charging Case", "value": "Smart Case" },
+      { "label": "Weight", "value": "384.8g" },
+      { "label": "Microphone", "value": "9-mic array" },
+      { "label": "Water Resistance", "value": "None" }
+    ]
+  },
+  {
+    "id": "ps4-pro-black", "slug": "ps4-pro-black", "name": "Sony Playstation 4 Pro Black Version", "brand": "Sony", "category": "devices",
+    "price": 429.99, "rating": 4, "reviewCount": 10, "countInStock": 9,
+    "image": "/assets/product-ps4.webp",
+    "gallery": ["/assets/product-ps4.webp", "/assets/product-ps4-2.webp", "/assets/product-ps4-3.webp"],
+    "description": "4K gaming with enhanced graphics processing.",
+    "specs": [
+      { "label": "Brand", "value": "Sony" },
+      { "label": "Model", "value": "PS4 Pro" },
+      { "label": "Storage", "value": "2TB" },
+      { "label": "Resolution", "value": "4K HDR" },
+      { "label": "CPU", "value": "8-core AMD Jaguar" },
+      { "label": "GPU", "value": "AMD Radeon" },
+      { "label": "Connectivity", "value": "Wi-Fi, Bluetooth" },
+      { "label": "Weight", "value": "3.3kg" }
+    ]
+  },
+  {
+    "id": "mouse-trackball", "slug": "mouse-trackball", "name": "Logitech Ergo Trackball Mouse", "brand": "Logitech", "category": "components",
+    "price": 44.99, "rating": 3.5, "reviewCount": 6, "countInStock": 14,
+    "image": "/assets/product-mouse.webp",
+    "gallery": ["/assets/product-mouse.webp", "/assets/product-mouse-2.webp", "/assets/product-mouse-3.webp"],
+    "description": "Ergonomic trackball for reduced wrist strain.",
+    "specs": [
+      { "label": "Brand", "value": "Logitech" },
+      { "label": "Model", "value": "ERGO M575" },
+      { "label": "Connectivity", "value": "Bluetooth / USB receiver" },
+      { "label": "DPI", "value": "2000" },
+      { "label": "Buttons", "value": "4 programmable" },
+      { "label": "Weight", "value": "135g" },
+      { "label": "Battery Life", "value": "24 months" },
+      { "label": "Warranty", "value": "1 year" }
+    ]
+  },
+  {
+    "id": "cam-point-shoot", "slug": "cam-point-shoot", "name": "Canon PowerShot Point-and-Shoot Camera", "brand": "Canon", "category": "devices",
+    "price": 249.99, "rating": 3, "reviewCount": 4, "countInStock": 16,
+    "image": "/assets/product-cam.webp",
+    "gallery": ["/assets/product-cam.webp", "/assets/product-cam-2.webp", "/assets/product-cam-3.webp"],
+    "description": "Simple point-and-shoot camera for everyday moments.",
+    "specs": [
+      { "label": "Brand", "value": "Canon" },
+      { "label": "Model", "value": "PowerShot SX740" },
+      { "label": "Sensor", "value": "20.3MP CMOS" },
+      { "label": "Video", "value": "4K 30fps" },
+      { "label": "Screen", "value": "3-inch tilt LCD" },
+      { "label": "ISO Range", "value": "100-3200" },
+      { "label": "Connectivity", "value": "Wi-Fi, Bluetooth" },
+      { "label": "Weight", "value": "299g" }
+    ]
+  },
+  {
+    "id": "echo-dot-5", "slug": "echo-dot-5", "name": "Amazon Echo Dot 5th Generation", "brand": "Amazon", "category": "devices",
+    "price": 39.99, "rating": 4.5, "reviewCount": 22, "countInStock": 35,
+    "image": "/assets/product-amazon.webp",
+    "gallery": ["/assets/product-amazon.webp", "/assets/product-amazon-2.webp", "/assets/product-amazon-3.webp"],
+    "description": "Improved speaker for richer sound with Alexa.",
+    "specs": [
+      { "label": "Brand", "value": "Amazon" },
+      { "label": "Model", "value": "Echo Dot 5th Gen" },
+      { "label": "Assistant", "value": "Alexa built-in" },
+      { "label": "Connectivity", "value": "Wi-Fi, Bluetooth" },
+      { "label": "Speaker", "value": "1.73-inch driver" },
+      { "label": "Diameter", "value": "100mm" },
+      { "label": "Power", "value": "15W adapter" },
+      { "label": "Color", "value": "Glacier White" }
+    ]
   }
 ]

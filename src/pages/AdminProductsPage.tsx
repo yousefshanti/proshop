@@ -1,12 +1,21 @@
+import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import DataTable from '../components/DataTable'
+import Pagination from '../components/Pagination'
 import { useAppDispatch, useAppSelector } from '../store/hooks'
 import { deleteProduct } from '../store/productsSlice'
 import type { Product } from '../types'
 
+const PAGE_SIZE = 6
+
 export default function AdminProductsPage() {
   const products = useAppSelector((state) => state.products.items)
   const dispatch = useAppDispatch()
+  const [page, setPage] = useState(1)
+
+  const totalPages = Math.max(1, Math.ceil(products.length / PAGE_SIZE))
+  const currentPage = Math.min(page, totalPages)
+  const pageProducts = products.slice((currentPage - 1) * PAGE_SIZE, currentPage * PAGE_SIZE)
 
   function handleDelete(id: string) {
     if (window.confirm('Delete this product?')) {
@@ -29,7 +38,7 @@ export default function AdminProductsPage() {
       <div className="mt-8 bg-white rounded-card overflow-hidden">
         <DataTable<Product>
           rowKey={(p) => p.id}
-          rows={products}
+          rows={pageProducts}
           columns={[
             { key: 'id', label: 'Product ID', render: (p) => `#${p.id}` },
             { key: 'name', label: 'Product Name' },
@@ -51,6 +60,10 @@ export default function AdminProductsPage() {
             },
           ]}
         />
+      </div>
+
+      <div className="mt-8">
+        <Pagination page={currentPage} totalPages={totalPages} onChange={setPage} />
       </div>
     </div>
   )
