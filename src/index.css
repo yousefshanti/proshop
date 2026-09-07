@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand: #FCDD06;
+  --color-ink: #242424;
+  --color-surface: #F2F2F2;
+  --color-surface-alt: #F7F8FC;
+  --color-danger: #FC4059;
+  --color-muted: #707070;
+  --color-grey-300: #C7C7C7;
+  --font-sans: "Muli", system-ui, sans-serif;
+  --radius-card: 16px;
+  --radius-btn: 10px;
+  --radius-pill: 20px;
+  --radius-input: 6px;
+}

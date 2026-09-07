@@ -1,0 +1,6 @@
+[
+  { "label": "LAPTOP", "image": "/assets/category-laptop.webp", "href": "/search?category=laptop" },
+  { "label": "COMPUTER COMPONENTS", "image": "/assets/category-components.webp", "href": "/search?category=components" },
+  { "label": "DEVICES", "image": "/assets/category-devices.webp", "href": "/search?category=devices" },
+  { "label": "ACCESSORIES", "image": "/assets/category-accessories.webp", "href": "/search?category=accessories" }
+]

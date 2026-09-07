@@ -1,0 +1,25 @@
+[
+  { "productId": "iphone", "author": "John Rose", "date": "2026-06-12", "rating": 5, "body": "Fast, smooth, and the camera is fantastic. Battery lasts all day with normal use." },
+  { "productId": "iphone", "author": "Amy Mayer", "date": "2026-05-30", "rating": 4, "body": "Great phone overall, screen is gorgeous. Wish it came with a charger in the box." },
+  { "productId": "iphone", "author": "Karim Adel", "date": "2026-05-10", "rating": 5, "body": "Upgraded from an older iPhone, huge difference in speed and camera quality." },
+
+  { "productId": "airpods", "author": "Moh Shamia", "date": "2026-06-01", "rating": 4, "body": "Sound quality is solid for the price. Case charges fast, fit is comfortable for long sessions." },
+  { "productId": "airpods", "author": "Sara Ahmed", "date": "2026-05-15", "rating": 3, "body": "Good but bass is a bit weak compared to other brands I've tried." },
+  { "productId": "airpods", "author": "Huda Salem", "date": "2026-05-02", "rating": 4, "body": "Connects instantly to my phone every time, battery lasts most of the day." },
+
+  { "productId": "ps4", "author": "David Lee", "date": "2026-04-20", "rating": 1, "body": "Console arrived with a scratched disc drive, had to request a replacement." },
+  { "productId": "ps4", "author": "Omar Nasser", "date": "2026-04-05", "rating": 1, "body": "Fan is very loud under load, disappointed for the price." },
+  { "productId": "ps4", "author": "Lina Fares", "date": "2026-03-28", "rating": 2, "body": "Games look great but the console itself feels dated now." },
+
+  { "productId": "mouse", "author": "Karim Adel", "date": "2026-06-08", "rating": 5, "body": "Best gaming mouse I've owned. DPI switching is instant and buttons feel premium." },
+  { "productId": "mouse", "author": "Lina Fares", "date": "2026-05-22", "rating": 5, "body": "Lightweight, precise, no complaints after 3 months of daily use." },
+  { "productId": "mouse", "author": "Yousef Tarek", "date": "2026-05-01", "rating": 5, "body": "RGB lighting looks great and the software is easy to configure." },
+
+  { "productId": "cam", "author": "Omar Nasser", "date": "2026-06-10", "rating": 4, "body": "Excellent image quality for the price range. Autofocus is quick in good lighting." },
+  { "productId": "cam", "author": "Huda Salem", "date": "2026-05-18", "rating": 5, "body": "Perfect for a beginner moving up from a phone camera. Vari-angle screen is a huge plus." },
+  { "productId": "cam", "author": "John Rose", "date": "2026-05-03", "rating": 4, "body": "Battery life could be better but image quality makes up for it." },
+
+  { "productId": "amazon", "author": "Yousef Tarek", "date": "2026-06-05", "rating": 5, "body": "Alexa responds instantly, sound is surprisingly good for such a small speaker." },
+  { "productId": "amazon", "author": "Amy Mayer", "date": "2026-05-20", "rating": 5, "body": "Easy setup, works great with my other smart home devices." },
+  { "productId": "amazon", "author": "David Lee", "date": "2026-05-06", "rating": 4, "body": "Great value, though the speaker is a bit quiet at max volume." }
+]
