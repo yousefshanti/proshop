@@ -1,5 +1,6 @@
 {
   "name": "proshop",
+  "description": "E-commerce storefront built with React, TypeScript, Vite, Redux Toolkit, and Tailwind CSS",
   "private": true,
   "version": "0.0.0",
   "type": "module",
